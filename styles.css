@@ -1,6 +1,6 @@
 /* Styling for all pages */
 body {
-    background-color:lightsalmon;
+    background-image:url('/assets/images/ramen_background.jpeg');
 }
 
 hr {
@@ -19,19 +19,30 @@ footer {
     font-style: italic;
 }
 
+.interactive-graph {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 500px;
+    width: 1000px;
+}
+
 
 
 /* Styling for the navigation bar for all pages */
 .navbar {
-    background-color:honeydew;
+    background-color:slategray;
+    border: solid;
+    border-width: 1em;
+    border-color: goldenrod;
 }
 
 .left-side {
-    color:red;
+    color:honeydew;
 }
 
 .left-side a {
-    color: black;
+    color: honeydew;
 }
 
 .left-side a:hover{
@@ -45,11 +56,11 @@ footer {
 .navbar > .right-side > div {
     margin-top: 10px;
     margin-right: 15px;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .navbar > .right-side > div a {
-    color: red;
+    color:honeydew;
 }
 .navbar > .right-side > div a:hover {
     text-decoration: none;
@@ -57,8 +68,8 @@ footer {
 
 .dropdown {
     border:none;
-    border: none;
-    margin-right: 5px;
+    background-color: goldenrod;
+    margin-right: 10px;
     font-size: 1.2em;
     position: relative;
     display: inline-block;
@@ -66,15 +77,15 @@ footer {
 
 
 button {
-    background-color: black;
-    color:red;
+    background-color: slategray;
+    color:honeydew;
     border:none;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 75px;
+    min-width: 200px;
     z-index: 1;
 
 }
@@ -86,15 +97,21 @@ button {
     display: block;
 }
 
-.dropdown-content:hover {background-color: salmon;}
-
-.dropdown:hover .dropdown-content{
+.dropdown:hover button {
+    background-color: goldenrod;
     display: block;
 }
 
-.dropdown:hover > button {
-    background-color: salmon;
+.dropdown-content:hover {
+    background-color: goldenrod;
 }
+
+.dropdown:hover .dropdown-content{
+    display:block;
+    background-color: goldenrod;
+}
+
+
 
 /* Styling for homepage image */
 .image1 {
@@ -192,3 +209,13 @@ button {
     padding-bottom: 10px;
     font-size: 1.5em;
 }
+
+/* This section styles the table in Data tab */
+
+.table {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    background-color: white;
+}
+
