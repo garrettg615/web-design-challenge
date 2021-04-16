@@ -1,6 +1,7 @@
 /* Styling for all pages */
 body {
-    background-image:url('/assets/images/ramen_background.jpeg');
+    background-image:url('/assets/images/wood2.jpeg');
+    
 }
 
 hr {
@@ -17,6 +18,7 @@ footer {
     font-size: 1.4em;
     font-family: sans-serif;
     font-style: italic;
+    color: floralwhite;
 }
 
 .interactive-graph {
@@ -31,7 +33,6 @@ footer {
 
 /* Styling for the navigation bar for all pages */
 .navbar {
-    background-color:slategray;
     border: solid;
     border-width: 1em;
     border-color: goldenrod;
@@ -68,7 +69,7 @@ footer {
 
 .dropdown {
     border:none;
-    background-color: goldenrod;
+    background:none;
     margin-right: 10px;
     font-size: 1.2em;
     position: relative;
@@ -77,7 +78,7 @@ footer {
 
 
 button {
-    background-color: slategray;
+    background:none;
     color:honeydew;
     border:none;
 }
@@ -127,9 +128,10 @@ button {
     text-align: justify;
     padding-top: 15px;
     padding-left: 20px;
-    padding-right: 20px;
-    font-size: 1.2em;
+    padding-right: 25px;
+    font-size: 1.4em;
     font-weight: bold;
+    color: white;
     
 }
 
@@ -193,6 +195,7 @@ button {
     font-family: 'Times New Roman', Times, serif;
     font-family: sans-serif;
     text-decoration: underline;
+    color: white;
 }
 
 .graph-image img {
@@ -208,14 +211,20 @@ button {
     padding-top: 50px;
     padding-bottom: 10px;
     font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: darkgrey;
 }
 
 /* This section styles the table in Data tab */
+
+.dataframe {
+    background-color: white;
+}
 
 .table {
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 25px;
-    background-color: white;
 }
 
