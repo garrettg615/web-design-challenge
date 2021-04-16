@@ -1,6 +1,6 @@
 /* Styling for all pages */
 body {
-    background-image:url('/assets/images/wood2.jpeg');
+    background-image:url('/assets/images/ramen_background.jpeg');
     
 }
 
@@ -15,7 +15,7 @@ footer {
     padding-right: 50px;
     padding-bottom: 20px;
     text-align: right;
-    font-size: 1.4em;
+    font-size: 20px;
     font-family: sans-serif;
     font-style: italic;
     color: floralwhite;
@@ -36,6 +36,7 @@ footer {
     border: solid;
     border-width: 1em;
     border-color: goldenrod;
+    
 }
 
 .left-side {
@@ -186,10 +187,14 @@ button {
 
 /* Styling for the Visualization pages - graphs */
 
+.blank-space {
+    padding-top: 50px;
+}
+
 .visual-title-wrapper {
     padding-top: 30px;
     padding-left: 250px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-size: 2.5em;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
@@ -206,15 +211,49 @@ button {
 }
 
 .visual-descript-wrapper {
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 50px;
+    padding-right: 40px;
+    padding-left: 100px;
     padding-bottom: 10px;
-    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
     font-weight: bold;
-    color: white;
-    text-shadow: darkgrey;
+    color: black;
+    background-color: goldenrod;
+    text-align: left;
+    border: solid;
+    border-color: black;
+    border-width: 10px;
+    
+
 }
+
+/* This section styles the comparison page */
+
+
+.comp-container1 {
+    padding-top: 50px;
+    padding-left: 75px;
+}
+
+.comp-container2 {
+    padding-top: 50px;
+    padding-left: 20px;
+
+}
+
+.img {
+    border:solid;
+    border-color: black;
+    border-width: 10px;
+    height:450px;
+    width:800px;
+}
+
+
+
 
 /* This section styles the table in Data tab */
 
@@ -225,6 +264,6 @@ button {
 .table {
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
