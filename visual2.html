@@ -39,26 +39,51 @@
         </div>
     </div>
 
-    <div class="image-container">
-        <div class='visual-title-wrapper'>
-            COUNTRIES WITH THE MOST RAMEN REVIEWS:
-        </div>
-        <hr>
-        <div class="graph-image">
-            <img src="visualizations/countries_most_reviews.png" alt="All Ramen Reviews">
-        </div>
-        <div class='visual-descript-wrapper'>
-            After seeing how the review scores (Stars) were distributed, I wanted to find which countries reviewed the most ramen. I knew that countries located in Asia would have the most reviews since Ramen was an important part of their cuisine. However, I wanted to see if there were any countries outside of Asia that had a stong preference for ramen. For the analysis of this graph, I grouped the dataframe by Country and performed a count of the Reviews. I then used a bar graph to visualize the results from the grouped dataframe. As I expected, most of the top countries were from Asia but the one interesting outcome from the groupby anaylsis showed that the United States was the second highest country for reviews of ramen. This information was not to surprising since American cuisine is a melting pot of various cultures and instant ramen is a very popular and quick meal. Furthermore, I would expect the United States to be amongst the highest reviews for other popular meals from around the world.
-        </div>
-    </div>    
+    <div class='visual-title-wrapper'>
+        COUNTRIES WITH THE MOST RAMEN REVIEWS:
+    </div>   
     
-    </body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-7">
+                <div class="graph-image">
+                    <img src="visualizations/countries_most_reviews.png" alt="Countries with the Most Ramen">
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="box-graphs">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="visual1.html"><img src="./visualizations/ramen_distribution.jpeg" alt="Ramen Distribution"></a>
+                        </div>
+                        <div class="col-6">
+                            <a href="visual2.html"><img src="./visualizations/countries_most_reviews.png" alt="Most Ramen"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="visual3.html"><img src="./visualizations/popular_ramen_styles_usa.png" alt="USA Ramen Reviews"></a>
+                        </div>
+                        <div class="col-6">
+                            <a href="visual4.html"><img src="./visualizations/popular_ramen_usa.png" alt="Popular USA Brands"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div> 
+
+    <div class='visual-descript-wrapper'>
+        After seeing how the review scores (Stars) were distributed, I wanted to find which countries reviewed the most ramen. I knew that countries located in Asia would have the most reviews since Ramen was an important part of their cuisine. However, I wanted to see if there were any countries outside of Asia that had a stong preference for ramen. For the analysis of this graph, I grouped the dataframe by Country and performed a count of the Reviews. I then used a bar graph to visualize the results from the grouped dataframe. As I expected, most of the top countries were from Asia but the one interesting outcome from the groupby anaylsis showed that the United States was the second highest country for reviews of ramen. This information was not to surprising since American cuisine is a melting pot of various cultures and instant ramen is a very popular and quick meal. Furthermore, I would expect the United States to be amongst the highest reviews for other popular meals from around the world.
+    </div>
+
+</body>
     
-    <hr>
+<hr>
     
-    <footer>
-        by: garrett gomez-spillane
-    </footer>
+<footer>
+    by: garrett gomez-spillane
+</footer>
 
 
 </html>
