@@ -291,10 +291,6 @@ button {
     padding-top: 35px;
 }
 
-/* Change the webpage design at different screen sizes */
-@media only screen and (max-width: 600px) {
-    .navbar {
-        float:none;
-        width:100%;
-    }
-}
+
+
+
